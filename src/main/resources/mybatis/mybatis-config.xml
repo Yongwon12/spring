@@ -3,6 +3,9 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <mappers>
-        <mapper resource="TestMapper.xml"/>
+        <mapper resource="BoardWriteInfoMapper.xml"/>
+        <mapper resource="IndividualWriteInfoMapper.xml"/>
+        <mapper resource="GroupWriteInfoMapper.xml"/>
+        <mapper resource="UsedWriteInfoMapper.xml"/>
     </mappers>
 </configuration>
