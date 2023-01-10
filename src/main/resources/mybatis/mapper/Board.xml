@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.demo.model.aws.dao.BoardWriteInfoDao">
+
+    <select id="listBoard1" resultType="com.example.demo.model.aws.vo.BoardWriteInfoEntity">
+        select * from boardwrite where id = 1;
+    </select>
+    <select id="listBoard2" resultType="com.example.demo.model.aws.vo.BoardWriteInfoEntity">
+        select * from boardwrite where id = 2;
+    </select>
+    <select id="listBoard3" resultType="com.example.demo.model.aws.vo.BoardWriteInfoEntity">
+        select * from boardwrite where id = 3;
+    </select>
+    <select id="listBoard4" resultType="com.example.demo.model.aws.vo.BoardWriteInfoEntity">
+        select * from boardwrite where id = 4;
+    </select>
+    <select id="listBoard5" resultType="com.example.demo.model.aws.vo.BoardWriteInfoEntity">
+        select * from boardwrite where id = 5;
+    </select>
+    <select id="listBoard6" resultType="com.example.demo.model.aws.vo.BoardWriteInfoEntity">
+        select * from boardwrite where id = 6;
+    </select>
+    <select id="listBoard7" resultType="com.example.demo.model.aws.vo.BoardWriteInfoEntity">
+        select * from boardwrite where id = 7;
+    </select>
+    <select id="listBoard8" resultType="com.example.demo.model.aws.vo.BoardWriteInfoEntity">
+        select * from boardwrite where id = 8;
+    </select>
+    <select id="listBoard9" resultType="com.example.demo.model.aws.vo.BoardWriteInfoEntity">
+        select * from boardwrite where id = 9;
+    </select>
+    <select id="listBoard10" resultType="com.example.demo.model.aws.vo.BoardWriteInfoEntity">
+        select * from boardwrite where id = 10;
+    </select>
+
+
+</mapper>

@@ -1,16 +1,10 @@
-package com.example.demo.model.aws.dto;
+package com.example.demo.model.aws.vo;
 
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
 import lombok.*;
 
 @Data
 @Builder
-@NoArgsConstructor
-@AllArgsConstructor
-public class Portfolio {
-
+public class BoardWriteInfoEntity {
     private Integer id;
 
     private Integer userid;
@@ -24,8 +18,7 @@ public class Portfolio {
     private String writedate;
     private String profileimage;
     private String nickname;
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Integer boardid;
     private Integer likedcount;
     private Integer commentcount;
